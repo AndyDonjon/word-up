@@ -138,7 +138,7 @@ function render() {
     $("#word-submissions").empty();
     // TODO 10
     // Add a few things to the above code block (underneath "// clear stuff").
-    $("textbox").attr("disabled", false).removeClass("bad-attempt")
+    $("#textbox").attr("disabled", false).removeClass("bad-attempt")
     $(".tag-danger").remove();
 
     // reveal the #game container
